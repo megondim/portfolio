@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(153, 153, 153);
+    padding-bottom: 60px;
+}
+header{
+    background-color: rgb(1, 128, 187);
+    color: white;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+}
+#sobre, #lado-direito{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 400px;
+    max-width: 600px;
+}
+section#sobre{
+    text-align: justify;
+}
+h3{
+    border-bottom: 2px solid rgb(1, 128, 187);
+    padding-bottom: 5px;
+}
+ul{
+    list-style-type: square;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(1, 128, 187);
+}
+footer{
+    background-color: rgb(1, 128, 187);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#contatos p{
+    margin-bottom: 10px;
+}
